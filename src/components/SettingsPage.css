@@ -1,0 +1,18 @@
+/* SettingsPage.css */
+/* ... existing styles ... */
+
+/* Input with black border */
+.password-input {
+    border: 1px solid black;
+    /* rest of your input styling */
+  }
+  
+  /* Button styles to match the theme of the other buttons */
+  .submit-btn, .delete-account-btn, .confirm-btn, .cancel-btn {
+    background-color: #d9534f; /* Bootstrap's btn-danger color for example */
+    color: white;
+    /* Add other button styles here to match the theme */
+  }
+  
+  /* Rest of your CSS for the settings page */
+  

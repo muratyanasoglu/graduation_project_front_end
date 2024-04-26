@@ -1,0 +1,46 @@
+/* CalendarPage.css güncellemeleri */
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.react-calendar {
+  width: 100%;
+  max-width: 900px; /* Takvim genişliğini ve yüksekliğini artır */
+  background: white;
+  border-radius: 15px; /* Kenarları daha yuvarlak yap */
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+}
+
+.react-calendar__tile {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  font-size: 18px; /* Yazı boyutunu daha da büyüt */
+  padding: 20px; /* Daha fazla dolgu ile daha büyük hücreler */
+}
+
+.react-calendar__tile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.react-calendar__tile--active, .react-calendar__tile--active:hover {
+  background-color: #e53e3e;
+  color: white;
+}
+
+/* Buton ve navigasyon bar stilleri */
+.nav-link {
+  transition: background-color 0.3s, color 0.3s;
+  padding: 8px 16px;
+  margin: 0 10px;
+  border-radius: 8px;
+}
+
+.nav-link:hover {
+  background-color: #e53e3e;
+  color: #ffffff;
+}

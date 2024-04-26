@@ -1,0 +1,82 @@
+/* ProfilePage.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Profil sayfası ana konteyner stilini tanımlayın */
+  .profile-page {
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+     /* Navigasyon çubuğu için boşluk bırakın */
+  }
+  
+  /* Navigasyon çubuğu stilini ayarlayın */
+ 
+  /* Navigasyon linkleri için genel stil */
+
+  
+ 
+  
+  /* Profil bilgi kartı için stil */
+  .user-info {
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 2em auto;
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  /* Üstbilgi için stil */
+  .user-info h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Paragraf metni için stil */
+  .user-info p {
+    color: #666;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Düzenleme butonu için stil */
+  .user-info button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Profil bilgi kartını ortalamak için ekstra stil */
+  .profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px); /* Navigasyon çubuğu yüksekliğini çıkar */
+  }
+  
+  /* Responsive stil ayarları */
+  @media screen and (max-width: 768px) {
+   
+    .user-info {
+      width: 95%;
+    }
+  }
+  
+ 
+  
